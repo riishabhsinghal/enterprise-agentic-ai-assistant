@@ -1,4 +1,12 @@
 import streamlit as st
+# Sidebar information
+st.sidebar.markdown("""
+### 🧠 Enterprise AI Assistant
+Ask HR-related questions or math queries.
+
+⚠️ Demo application  
+📄 Knowledge limited to uploaded documents
+""")
 from agents.router import route_query
 
 st.set_page_config(page_title="Enterprise AI Assistant", layout="centered")
