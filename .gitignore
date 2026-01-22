@@ -5,8 +5,6 @@ __pycache__/
 *.pyc
 # Environment variables
 .env
-# Vector database
-faiss_index/
 # OS files
 .DS_Store
 Thumbs.db
