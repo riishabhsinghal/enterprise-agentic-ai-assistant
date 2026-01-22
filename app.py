@@ -70,8 +70,3 @@ if user_query:
     with st.chat_message("assistant"):
         st.markdown(response)
 
-# -------------------------------
-# Footer / Notes
-# -------------------------------
-st.markdown("---")
-st.markdown("*This is a demo application. Enterprise deployment would require authentication and monitoring.*")
